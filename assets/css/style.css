@@ -178,9 +178,6 @@ h2::before {
     font-size: 1.2rem;
 }
 
-.project-item h3::before {
-    content: "0";
-}
 
 .project-item p {
     color: var(--text-secondary);
