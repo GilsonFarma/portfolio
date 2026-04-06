@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/style.css">
 </head>
 
 <body>
@@ -14,46 +14,65 @@
         <nav class="menu">
             <ul>
                 <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
-        <h1 class="tittle">Olá, me chamo Gilson</h1>
+        <h1 class="hero-title">Olá, me chamo Gilson</h1>
         <img class="photo" src="/assets/src/Captura de tela 2026-04-01 104500.png" alt="Foto de perfil">
         <div class="informações">
-            <h3>
             <p>Desenvolvedor web em formação.</p>
             <p>Tenho experiência em HTML, CSS e JavaScript, e estou sempre buscando aprender novas tecnologias e
                 aprimorar minhas habilidades.</p>
             <p>Garanhuns - PE</p>
             <p>gilsonfilho96@outlook.com</p>
-            </h3>
         </div>
-        <!-- lista de projetos -->
-         <section class="projects">
-            <h2>Projetos</h2>
-            <div class="project-list">
-                <div class="project-item">
-                    <img src="" alt="Imagem do Projeto 1">
-                    <h3>Projeto 1: Site de Portfólio</h3>
-                    <p>Desenvolvi um site de portfólio pessoal usando HTML, CSS e JavaScript para mostrar meus projetos e habilidades.</p>
-                </div>
-                <div class="project-item">
-                    <img src="" alt="Imagem do Projeto 2">
-                    <h3>Projeto 2: Aplicação de Tarefas</h3>
-                    <p>Criei uma aplicação de tarefas simples usando JavaScript para gerenciar minhas atividades diárias.</p>
-                </div>
-                <div class="project-item">
-                    <img src="" alt="Imagem do Projeto 3">
-                    <h3>Projeto 3: Blog Pessoal</h3>
-                    <p>Desenvolvi um blog pessoal usando HTML e CSS para compartilhar minhas experiências e aprendizados em desenvolvimento web.</p>
-                </div>
-            </div>
-        </section>
-
     </header>
+    <!--Sobre-->
+    <section class="about">
+        <h2>Sobre Mim</h2>
+        <p>Sou um entusiasta do desenvolvimento web, apaixonado por criar experiências digitais envolventes e
+            funcionais. Com uma base sólida em HTML, CSS e JavaScript, estou constantemente explorando novas
+            tecnologias e tendências para aprimorar minhas habilidades e entregar projetos de alta qualidade.</p>
+    </section>
+    <!-- lista de projetos -->
+    <section class="projects">
+        <h2>Projetos</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <img src="/assets/src/projetos/projeto 1.png" alt="Imagem do Projeto 1">
+                <h3>Projeto 1: Site para Psicólogos</h3>
+                <p>Site institucional desenvolvido em React + Vite, criado para psicólogas que desejam uma presença
+                    digital elegante, responsiva e fácil de personalizar.
+                    🔗 Demo ao vivo: <a href="https://allanyrodrigues.vercel.app/" target="_blank">Acessar</a></p>
+            </div>
+            <div class="project-item">
+                <img src="/assets/src/projetos/projeto 2.png" alt="Imagem do Projeto 2">
+                <h3>Projeto 2: Pokedex</h3>
+                <p>Aplicação web desenvolvida em React + Vite, que consome a API pública de Pokémon para exibir
+                    informações detalhadas sobre cada criatura.
+                    🔗 Demo ao vivo: <a href="https://gilsonfarma.github.io/exercicio-dio-pokedex/" target="_blank">Acessar</a></p>
+            </div>
+            <div class="project-item">
+                <img src="/assets/src/projetos/projeto 3.png" alt="Imagem do Projeto 3">
+                <h3>Projeto 3: Todo-list</h3>
+                <p>Aplicação web para organizar suas tarefas do dia a dia — adicione, remova, ordene e as tarefas ficam
+                    salvas mesmo fechando o navegador.
 
+                    🎮 Demo: <a href="https://gilsonfarma.github.io/todo-list/" target="_blank">Acessar</a></p>
+            </div>
+        </div>
+    </section>
+    <!--Contato-->
+    <section class="contact" id="contact">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo através do email: gilsonfilho96@outlook.com</p>
+        <p>Ou me siga nas redes sociais:</p>
+        <a href="https://www.linkedin.com/in/gilsondevjr" target="_blank">LinkedIn</a>
+        <a href="http://instagram.com/gilsoncatao_" target="_blank">Instagram</a>
+        <a href="https://github.com/gilsonFarma" target="_blank">GitHub</a>
+    </section>
 
     <script src="script.js"></script>
 </body>
